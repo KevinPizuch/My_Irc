@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Socket.IO chat</title>
+    <style>
+    </style>
+  </head>
+  <body>
+    <div class="app">
+      <div class="rooms">
+        <button id="create_room">Create your room</button>
+        <div class="user_manager">
+
+        </div>
+      </div>
+      
+      <div class="chat">
+        <div id="messages"></div>
+        <div id="input">
+          <form action="">
+            <span class="typing"></span>
+            <input type="text" id="m" name="lastname" placeholder="Envoyer un message à #LePipi">
+          </form>
+        </div>
+      </div>
+      <div class="space"></div>
+      <div class="users">
+        <h2 style="color:white;text-align: center; margin-top: 10px; margin-bottom: 10px">Users</h2>
+      </div>
+    </div>
+      <div class="login">
+        <form action="">
+          <div class="avatar">
+            <img src="avatar.png">
+          </div>
+          <div class="input_login">
+            <input id="pseudo" type="text" placeholder="ton pseudo">
+            <button>Rejoins !</button>
+          </div>
+        </form>
+      </div>
+      <div class="room_form">
+        <form action="">
+          <input type="text" id="create_room_input" placeholder="Room name ...">
+        </form>
+      </div>
+      <div class="room_rename_form">
+        <form action="">
+          <input type="text" id="rename_room_input" placeholder="Room name ...">
+        </form>
+      </div>
+      <div class="user_rename_form">
+        <form action="">
+          <input type="text" id="rename_user_input" placeholder="New name ...">
+        </form>
+      </div>
+      <div class="room_manager"></div>
+      <div class="stars">
+        <div class="night">
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+        </div>
+      </div>
+      <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+      <script src="/socket.io/socket.io.js"></script>
+      <script src="client.js"></script>
+  </body>
+  </html>

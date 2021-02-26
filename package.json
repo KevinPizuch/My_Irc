@@ -1,0 +1,9 @@
+{
+   "name": "the-juice",
+   "version": "0.0.1",
+   "description": "juice.io",
+   "dependencies": {
+      "express": "^4.16.4",
+      "socket.io": "^2.2.0"
+   }
+}
